@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         task1();
+        task2();
     }
 
     public static void task1() {
@@ -16,6 +17,19 @@ public class Main {
 
         double [] randomMassive = {23, 105.54, 646466.465454};
         System.out.println(randomMassive[0]);
+    }
+
+    public static void task2() {
+        System.out.println("Задача 2");
+        int [] massive = new int [10];
+        for (int index = 0; index < massive.length; index++) {
+            if (index == massive.length - 1) {
+                System.out.println(massive[index]);
+                break;
+            }
+            System.out.println(massive[index]);
+        }
+
     }
 
 }
